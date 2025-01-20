@@ -25,7 +25,7 @@
         "type": "steam/universal",
         "startCommand": "./FactoryServer.sh",
         "stopCommand": "stop",
-        "updateCommand": "/usr/games/steamcmd +force_install_dir "{mcsm_workspace}" +login anonymous +app_update 1690800 -beta public validate +quit",
+        "updateCommand": "/usr/games/steamcmd +force_install_dir '{mcsm_workspace}' +login anonymous +app_update 1690800 -beta public validate +quit",
         "ie": "utf-8",
         "oe": "utf-8"
       }
